@@ -1,14 +1,14 @@
 FROM rocker/rstudio
 
 RUN apt-get-install.sh \
-    zlib1g-dev \
     libpq-dev \
+    libsm-dev \
+    libxml2-dev \
+    libxt-dev \
     postgresql \
     postgresql-contrib \
     xml2 \
-    libxml2-dev \
-    libsm-dev \
-    libxt-dev
+    zlib1g-dev
 
 RUN Rscript install.R
 
