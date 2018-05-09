@@ -7,6 +7,7 @@ RUN apt-get-install.sh \
     libxt-dev \
     postgresql \
     postgresql-contrib \
+    vim \
     xml2 \
     zlib1g-dev
 
