@@ -1,0 +1,10 @@
+sqldf
+dplyr
+RPostgreSQL
+nnet
+devtools
+reshape
+plyr
+github
+xml2
+plyr
