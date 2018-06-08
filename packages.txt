@@ -8,3 +8,6 @@ plyr
 github
 xml2
 plyr
+tidyverse
+lubridate
+gmodels
